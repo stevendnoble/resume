@@ -1,0 +1,262 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+baseurl: "/resume"
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Steven Noble
+title: Software Engineer, Growth
+email: stevendananoble@gmail.com
+website: stevendnoble.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  stevendnoble
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: barnsan
+linkedin_username: stevendnoble
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: stevendnoble
+  icon: fas fa-globe
+  url: https://stevendnoble.com
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  As a Software Engineer, Growth at Upstart, I apply my skills and knowledge in Ruby on Rails, JavaScript, PostgreSQL, Redis, Microservices, and A/B Testing to improve the user experience and conversion rate of our online lending platform. I have been working at Upstart for four years, and I enjoy being part of a mission-driven, innovative, and collaborative team that is transforming the credit industry with AI and data science.
+
+  Before joining Upstart, I was a Software Engineer at Snapdocs, where I built back-end solutions for connecting our notary scheduling app and our digital closing solution for lenders and designed and implemented a microservice for storing eNotes. I also have two years of experience as an Outcomes Instructor at General Assembly, where I taught algorithms and interview prep to recent graduates of the web development boot camp. My background in mathematics and special education has given me a unique perspective and a strong foundation in problem-solving, communication, and mentorship. I am passionate about creating software that is accessible, user-friendly, and impactful.
+
+content:
+  - title: Skills and Technologies # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        # title: Super awesome project
+        # link: github.com/sproogen
+        # link_text: Project Website
+        # additional_links:
+          # - title:  sproogen/modern-resume-theme
+            # icon: fab fa-github
+            # url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+          # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-4 col-lg-offset-1 col-print-12">
+          <h4 class="text-center">Proficient/Current</h4>
+          <div class="row">
+          <div class="col-xs-6">
+          <ul>
+          <li>Ruby on Rails</li>
+          <li>JavaScript</li>
+          <li>PostgreSQL</li>
+          <li>Redis</li>
+          <li>Microservices</li>
+          <li>AWS & Heroku</li>
+          </ul>
+          </div>
+          <div class="col-xs-6">
+          <ul>
+          <li>DataBricks</li>
+          <li>DataDog/SumoLogic</li>
+          <li>SEO</li>
+          <li>Funnel Optimization</li>
+          <li>A/B Testing</li>
+          <li>Unit Testing</li>
+          </ul>
+          </div>
+          </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4 col-lg-offset-2 col-print-12">
+          <h4 class="text-center">Side Projects/Past</h4>
+          <div class="row">
+          <div class="col-xs-6">
+          <ul>
+          <li>React</li>
+          <li>Node/Express</li>
+          <li>Angular</li>
+          <li>Bootstrap</li>
+          <li>Foundation</li>
+          <li>jQuery</li>
+          </ul>
+          </div>
+          <div class="col-xs-6">
+          <ul>
+          <li>MongoDB</li>
+          <li>Mixpanel/Segment</li>
+          <li>Google Analytics</li>
+          <li>Search Console</li>
+          <li>Responsive Design</li>
+          <li>Accessibility</li>
+          </ul>
+          </div>
+          </div>
+          </div>
+          </div>
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Upstart
+        # link: upstart.com
+        # link_text: upstart.com
+        sub_title: Software Engineer, Growth
+        caption: March 2020 - Present
+        quote: >
+          Upstart's mission is to enable effortless credit based on true risk. We are a leading artificial intelligence (AI) lending platform designed to improve access to affordable credit while reducing the risk and costs of lending for our bank partners.
+        description: | # this will include new lines to allow paragraphs
+          Founding member of the growth engineering team in a fast-paced startup using AI to improve access to affordable credit.
+
+          * Led 7 engineers to decouple user account creation from loan applications. This involved collaboration with 4 other engineering teams, creation of a microservice written in Kotlin, and experimentation with our conversion funnel.
+          * Spearheaded a successful loan attribution overhaul, resulting in a remarkable $1 million reduction in partner fees within the first four months after launch.
+          * Enhanced the reliability of reporting systems during the business's scaling phase, implementing measures for accurate and consistent data.
+          * Redesigned the A/B testing framework, introducing key features for multivariate experiments, enabling testing on logged-out visitors, and implementing a controlled rollout mechanism.
+          * Played a crucial role in helping the business diversify its offerings and facilitating marketing efforts by enabling strategic partnerships for new product launches.
+
+      - layout: left
+        title: Snapdocs
+        # link: upstart.com
+        # link_text: upstart.com
+        sub_title: Software Engineer, Growth
+        caption: December 2018 – March 2020
+        quote: >
+          Snapdocs is dedicated to simplifying and modernizing the mortgage process by providing a seamless digital solution for all parties involved.
+        description: | # this will include new lines to allow paragraphs
+          Member of the Scheduler Experience Team in a product-focused startup revolutionizing the mortgage closing experience.
+
+          * Engineered backend solutions to seamlessly connect notary scheduling and digital closing products, optimizing customer workflow.
+          * Designed and implemented a Ruby on Rails microservice for storing eNotes, a crucial step towards a 100% digital closing experience.
+
+      - layout: left
+        title: General Assembly
+        # link: upstart.com
+        # link_text: upstart.com
+        sub_title: Outcomes Instructor
+        caption: January 2017 – December 2018
+        quote: >
+          General Assembly's mission focuses on empowering underrepresented communities in tech.
+        description: | # this will include new lines to allow paragraphs
+          Member of the Outcomes Team at a web-development immersive program.
+
+          * Taught Algorithms and Interview Prep course to recent graduates of the Web Development Immersive 12-week coding boot camp.
+          * Covered essential topics including space/time complexity, object-oriented programming, prototypal inheritance, and special topics in Ruby and JavaScript.
+          * Played a key role in preparing students for the challenges of web development through effective teaching and guidance.
+
+      - layout: left
+        title: RepairPal
+        # link: upstart.com
+        # link_text: upstart.com
+        sub_title: Software Engineer
+        caption: October 2017 – November 2018
+        quote: >
+          RepairPal's mission statement is to give consumers trust, quality and fair pricing in caring for their cars. Too many people don't know which mechanic they can trust, or if they're getting ripped off when they need repairs.
+        description: | # this will include new lines to allow paragraphs
+          Member of the growth engineering team in a fast-paced startup aiming to connect car owners to reputable mechanics.
+
+          * Revitalized consumer-facing pages, implementing a redesign to enhance branding and improve performance, resulting in a 35% reduction in average page load time (4 seconds to 2.6 seconds).
+          * Led A/B testing initiatives using proprietary software, optimizing conversion rates on high-traffic landing pages.
+          * Leveraged analytics to drive data-driven decision-making.
+
+      - layout: left
+        title: Rocksbox
+        # link: upstart.com
+        # link_text: upstart.com
+        sub_title: Software Engineer
+        caption: March 2016 – September 2017
+        quote: >
+          Our mission is to bring the joy of jewelry to everyone. We believe jewelry is a celebration of individuality and self-expression that needs no special occasion and has no gender.
+        description: | # this will include new lines to allow paragraphs
+          Generalist working across multiple cross-functional teams to support existing software and develop features in a scrappy jewelry subscription startup.
+
+          * Enhanced the stylist experience, improving usability, and incorporating data-driven recommendations.
+          * Successfully increased subscription conversion rates through strategic marketing campaigns and experimentation.
+          * Optimized Warehouse Management Systems (WMS) to enhance inventory management.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Framingham State University
+        caption: 3.6 GPA
+        sub_title: BS, Mathematics
+        description: | # this will include new lines to allow paragraphs
+          My college journey was a dynamic blend of quantitative analysis through a Mathematics major, complemented by a minor in Economics.
+          I also diversified my skill set by studying French, Spanish, German, and Italian, fostering cross-cultural communication abilities.
+          Simultaneously, I developed a strong foundation in computer programming through various courses.
+          This diverse academic background has equipped me with problem-solving skills, analytical thinking, and programming expertise.
+
+      - layout: left
+        title: Grand Canyon University
+        caption: 4.0 GPA
+        sub_title: MA, Special Education
+        description: | # this will include new lines to allow paragraphs
+          Graduate school allowed me to deepen my understanding of special education practices and principles, equipping me with valuable skills for communication, collaboration, and empathy.
+          My commitment to improving education and fostering an inclusive learning environment was further solidified during this time.
+          This experience has played a pivotal role in shaping my career journey and contributing to my success in both education and the tech industry.
+
+      - layout: left
+        title: New York University
+        caption: 3.6 GPA
+        sub_title: Mathematics Graduate Program
+        description: | # this will include new lines to allow paragraphs
+          I successfully completed 30 credits of advanced courses in mathematics.
+          These courses encompassed a diverse range of topics, from abstract algebra to algorithm design, providing me with a strong theoretical foundation and technical proficiency.
+          The rigorous curriculum nurtured my problem-solving abilities and analytical thinking, which have proven invaluable in my subsequent career as a software engineer.
+
+  - title: Interest Groups
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      🌈 Member of Upstart Catalyst LGBTQ2IA+ ERG
+
+      🧑‍🎓 Volunteered as a mentor for Techtonica bootcamp students through Upstart
+
+      🍲 Participated in and hosted “Snapfoodies”, a group for like-minded foodies
+
+      🌹 Lead commissioner for Rocksbox Bachelorette fantasy league
+
+      🤝 Hosted interview prep meetups for General Assembly bootcamp students & graduates
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

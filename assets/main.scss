@@ -1,0 +1,22 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import 'modern-resume-theme';
+
+p, ul {
+	text-align: unset;
+}
+
+ul {
+	padding-inline-start: 10px;
+}
+
+.layout .details {
+	justify-content: unset;
+	vertical-align: unset;
+}
+
+.intro-container {
+
+}
